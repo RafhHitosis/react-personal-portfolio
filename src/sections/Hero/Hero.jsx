@@ -8,7 +8,7 @@ import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
-import CV from "../../assets/cv.pdf";
+import CV from "../../assets/rdresume.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
@@ -40,7 +40,10 @@ function Hero() {
           <br />
           Hitosis
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>
+          Aspiring Frontend <br />
+          Web Developer
+        </h2>
         <span>
           {/* <a href="https://twitter.com/" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />

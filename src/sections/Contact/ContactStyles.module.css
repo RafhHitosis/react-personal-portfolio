@@ -60,6 +60,21 @@ input[type='submit']:active {
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
 }
 
+.contactInfo {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.contactInfo p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.email, .phone {
+  font-weight: 500;
+  color: var(--primary-color); 
+}
+
 @media (width >= 800px) {
   textarea,
   input:not([type='submit']) {
